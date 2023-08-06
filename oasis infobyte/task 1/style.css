@@ -1,0 +1,101 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+
+}
+header h1{
+    color:rgb(245, 253, 251);
+}
+header{
+    background-color: rgb(15, 29, 15);
+}
+header h3{
+    color:rgb(246, 243, 248);
+}
+.image
+{
+    background:url(https://media.istockphoto.com/id/1029147344/photo/video-archives-concept.jpg?s=1024x1024&w=is&k=20&c=hIJCRHEIozgT2XyXbUGyq1cPoWVQc_jV0NyifqQobGI=);
+    background-size: cover;
+    height:100%;
+    overflow:hidden;
+}
+.img{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj2mDcW8ip3Hf0da35jHovC3B_7r-94DiGgA&usqp=CAU);
+    background-size: cover;
+    height:25%;
+    overflow:hidden;
+}
+.image h1{
+    padding-top:250px;
+    padding-bottom: 50px;
+    color:rgb(249, 246, 246);
+    text-align: center;
+    text-shadow: 5px 5px 1px #000000;
+    font-size: 50px;
+}
+.image h3{
+    padding:10px;
+    line-height: 1.6;
+    padding-bottom: 30px;
+    color:white;
+    text-align: center;
+}
+.button
+{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.button button{
+    background-color: rgb(187, 16, 16);
+    font-size: 30px;
+    line-height: 1.6;
+}
+.main-section
+{
+    background-color:black;
+
+}
+.main-section h2,p,ul{
+    color: white;
+
+}
+.main-section h2,p,ul{
+    padding-left: 20px;
+    line-height: 1.6;
+    padding-right:20px;
+    padding-bottom: 20px;
+}
+.main-section h2{
+    padding-top:20px;
+    line-height: 1.6;
+}
+.main-section ul{
+    padding-left: 40px;
+    line-height: 1.6;
+}
+.main-section p,ul{
+    text-align: justify;
+    line-height: 1.6;
+}
+.end
+{
+    background-color:black;
+}
+.end h2{
+    padding-left: 15px;
+    text-align: justify;
+    color: white;
+    line-height: 1.6;
+
+}
+.nav a
+{
+    color: white;
+}
+.nav{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
