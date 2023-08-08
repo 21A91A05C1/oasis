@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>
+            Temperature Converter
+        </title>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Temperature Converter</h1>
+        </header>
+        <section>
+            <div id="main_section">
+                <div id="top_section">
+                    <div id="images">
+                        <img src="hot.png" height="50px" width;="50px">
+                        <img src="sun.png" height="50px" width;="50px">
+                        <img src="rainy-day.png" height="50px" width;="50px">
+                        <img src="snowman.png" height="50px" width;="50px">
+                    </div>
+                    
+                    <h3>Enter The Type:</h3>
+                    <select id="type">
+                        <option value="c" id="type">Celcius</option>
+                        <option value="f" id="type">Farenheit</option>
+                        <option value="k" id="type">Kelvin</option>
+                    </select><br><br>
+                    <h2>Enter The Number</h2><br>
+                    <input type="number" value="number" placeholder="Type the Temperature Here" height="50px" id="number"><br><br>
+                    <button onclick="Convert()">Convert</button>
+                    <br><br>
+                    <label>Temperature in Celcius:</label><br>
+                        <input type="number" id="Cel">
+                    </label><br><br>
+                    <label>Temperature in Farenheit:</label><br>
+                        <input type="number" id="far">
+                    </label><br><br>
+                    <label>Temperature in Kelvin:</label><br>
+                        <input type="number" id="kel">
+                    </label><br><br>
+                    <button onclick="Reset()">Clear</button>
+                </div>
+            </div>
+    </section>
+    </body>
+</html>
